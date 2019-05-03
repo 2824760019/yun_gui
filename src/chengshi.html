@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>城市</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" type="text/css" href="../css/mui.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/chengshi.css"/>		
+	</head>
+	<body>
+		<!--头部的开始-->
+		  <header class="mui-bar mui-bar-nav mui-bar-transparent" style="background-color:limegreen;height:60px; position: fixed;top: 0;left: 0;">
+		  	  <i class="mui-pull-left mui-icon mui-icon-location" style="color: #fff;font-size: 40px;"></i> 
+		  	    <span class="mui-pull-left" style="line-height: 50px; color: #fff;font-family: '微软雅黑';">贵阳</span>
+	          <h1 class="mui-title" style="font-size: 25px; color: #fff; font-family: '微软雅黑';">贵州</h1>
+         </header>
+		<!--头部的结束-->
+		 <div class="da_tu">
+		 	<img src="../images/guiyang-003.jpg" />
+		 	 <div class="yang">
+		 	 	<span>贵阳</span>
+		 	 	<h5>guiyang</h5>
+		 	 </div>
+		 </div>
+        <!--     图片的开始-->
+          <div class="xiao_tu">
+          	 <div class="zunyi" id="zun">
+          	 	 <img src="../images/zunyi1.jpg"/>
+          	 	 <h4>遵义</h4>
+          	 	 <h5>ZunYi</h5>
+          	 </div>
+          	 <div class="anshun">
+          	 	<img src="../images/anshun1.jpg"/>
+          	 	<h4>安顺</h4>
+          	 	 <h5>AnShun</h5>
+          	 </div>
+          </div>
+         <div class="xiao_tu">
+          	 <div class="zunyi">
+          	 	 <img src="../images/shili_hetan.jpg"/>
+          	 	 <h4>毕节</h4>
+          	 	 <h5>BiJie</h5>
+          	 </div>
+          	 <div class="anshun">
+          	 	<img src="../images/shili_hetan-003.jpg"/>
+          	 	<h4>铜仁</h4>
+          	 	 <h5>TongRen</h5>
+          	 </div>
+          </div>
+         <div class="xiao_tu">
+          	 <div class="zunyi">
+          	 	 <img src="../images/shili_hetan-001.jpg"/>
+          	 	 <h4>黔东南</h4>
+          	 	 <h5>QianDongNan</h5>
+          	 </div>
+          	 <div class="anshun">
+          	 	<img src="../images/shili_hetan-002.jpg"/>
+          	 	<h4>黔南</h4>
+          	 	 <h5>QianNAn</h5>
+          	 </div>          	 
+          </div>
+           <div class="xiao_tu">
+          	 <div class="zunyi">
+          	 	 <img src="../images/ji.jpg"/>
+          	 	 <h4>黔西南</h4>
+          	 	 <h5>QianXiNan</h5>
+          	 </div>
+          	 <div class="anshun">
+          	 	<img src="../images/ji2.jpg"/>
+          	 	<h4>六盘水</h4>
+          	 	 <h5>LiuPanShui</h5>
+          	 </div>
+          </div>
+          <div class="xiao_tu">
+          	 <div class="zunyi">
+          	 	 <img src="../images/huaguoyuan_shidi_gongyuan-001.jpg"/>
+          	 	 <h4>贵安新区</h4>
+          	 	 <h5>GuiAnXinQu</h5>
+          	 </div>
+          	 <div class="anshun">
+          	 	<!--<img src="../images/huaguoyuan_shidi_gongyuan-002.jpg"/>
+          	 	<h4>安顺</h4>
+          	 	 <h5>AnShun</h5>-->
+          	 </div>
+          </div>
+         <!--图片的结束-->
+	</body>
+	<script type="text/javascript" src="../js/Jump.js" ></script>
+	<script type="text/javascript" src="../js/mui.js" ></script>
+		<script type="text/javascript" charset="utf-8">
+	      	mui.init({
+	      		swipeBack: true //启用右滑关闭功能
+	      	});
+	        document.getElementById('zun').addEventListener('tap',function(){
+      		mui.openWindow({
+			url: '../hei/zunyi/zunyi.html', 
+			id:'zu',
+			show:{
+				aniShow:'none',//
+
+			}
+		})
+      	});
+	</script>
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>首页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../css/mui.min.css">
+	    <link rel="stylesheet" href="../css/home.css" />		
+	</head>    
+	<body>
+		<header class="mui-bar mui-bar-nav mui-bar-transparent" data-top='0' data-offset='150' data-duration='16' data-scrollby=".mui-scroll-wrapper" style="height: 55px; box-shadow: none;">
+			<i class="mui-icon mui-icon-location " style="color: #fff;font-size:37px;line-height:30px;" id="quanbu"></i>
+			<span style="color: #fff; margin-left: -10px;">贵阳</span>
+		   <h1 class="mui-title">
+		   	  <div class="mui-input-row mui-search" style="width: 70%;margin: 5px auto; background-color: #fff;border-radius:20px 20px;line-height: 10px;">
+		   	      <input type="search" class="mui-input-clear" placeholder="请搜索" style="width:100%;background-color: #fff;">
+		   	  </div>		   	  
+		   </h1>
+		   <i class="mui-icon mui-icon-chat mui-pull-right" style="color: #fff;" id="kuai"></i>
+        </header>
+         <div id="slider" class="mui-slider" >
+          <div class="mui-slider-group mui-slider-loop">
+        	<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+        	<div class="mui-slider-item mui-slider-item-duplicate">
+        	  <a href="#">
+        		<img src="../images/3.png" width="100%" height="200px">
+        	  </a>
+        	</div>
+        	<!-- 第一张 -->
+        	<div class="mui-slider-item">
+        	  <a href="#">
+        		<img src="../images/364246907589951580.jpg" width="100%" height="200px">
+        	  </a>
+        	</div>
+        	<!-- 第二张 -->
+        	<div class="mui-slider-item">
+        	  <a href="#">
+        		<img src="../images/3.png" width="100%" height="200px">
+        	  </a>
+        	</div>
+        	<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+        	<div class="mui-slider-item mui-slider-item-duplicate">
+        	  <a href="#">
+        		<img src="../images/364246907589951580.jpg" width="100%" height="200px">
+        	  </a>
+        	</div>
+          </div>
+          <div class="mui-slider-indicator">
+        	  <div class="mui-indicator mui-active"></div>
+        	  <div class="mui-indicator"></div>        	
+          </div>
+       </div>
+              <!--     今日的开始-->
+        <div class="jin" style="background-color: #fff;">
+        	 <div class="left_jin">
+        	 	<img src="../images/weather_cloudy.png"/>
+        	 </div>
+        	 <div class="zhong_jin">
+        	 	<h4><span>今日</span>&nbsp;<b>多云20℃</b></h4>
+        	 	<h5>农历三月甘七&nbsp;&nbsp;&nbsp;星期三</h5>
+        	 </div>
+        	 <div class="right_jin">
+        	 	<h5>今日限行</h5>
+        	 	<h4>3，8</h4>
+        	 </div>
+        </div>	
+        <!-- 今日的结束-->
+     <ul class="mui-table-view mui-grid-view mui-grid-9" style="background-color: #fff;">
+         <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3 hu">
+             <a href="#">
+                 <span class="mui-icon mui-icon-home"></span>
+                 <div class="mui-media-body">违章查询</div>
+             </a>
+         </li>
+         <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3 hu">
+             <a href="#">
+                 <span class="mui-icon mui-icon-email"><span class="mui-badge mui-badge-red">5</span></span>
+                 <div class="mui-media-body">驾驶证积分</div>
+             </a>
+         </li>
+         <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3 hu">
+             <a href="#">
+                 <span class="mui-icon mui-icon-chatbubble"></span>
+                 <div class="mui-media-body">车辆查询</div>
+             </a>
+         </li>
+         <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3 hu">
+             <a href="#">
+                 <span class="mui-icon mui-icon-location"></span>
+                 <div class="mui-media-body">预约挂号</div>
+             </a>
+         </li>
+         <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3 hu">
+             <a href="#">
+                 <span class="mui-icon mui-icon-search"></span>
+                 <div class="mui-media-body">生活缴费</div>
+             </a>
+         </li>
+         <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3 hu">
+             <a href="#">
+                 <span class="mui-icon mui-icon-phone"></span>
+                 <div class="mui-media-body">公交查询</div>
+             </a>
+         </li>
+          <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3 hu">
+             <a href="#">
+                 <span class="mui-icon mui-icon-search"></span>
+                 <div class="mui-media-body">快递服务</div>
+             </a>
+         </li>
+         <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3 hu">
+             <a href="#">
+                 <span class="mui-icon mui-icon-phone"></span>
+                 <div class="mui-media-body">公积金查询</div>
+             </a>
+         </li>
+          <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3 hu">
+             <a href="#">
+                 <span class="mui-icon mui-icon-search"></span>
+                 <div class="mui-media-body">景区查询</div>
+             </a>
+         </li>
+         <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3 hu">
+             <a href="#">
+                 <span class="mui-icon mui-icon-phone"></span>
+                 <div class="mui-media-body">个人低保</div>
+             </a>
+         </li>
+          <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3 hu">
+             <a href="#">
+                 <span class="mui-icon mui-icon-search"></span>
+                 <div class="mui-media-body">预约车检</div>
+             </a>
+         </li>
+         <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3 hu">
+             <a href="#">
+                 <span class="mui-icon mui-icon-phone"></span>
+                 <div class="mui-media-body">更多</div>
+             </a>
+         </li>     
+      </ul>
+<!--       办事大厅的开始    -->
+      <div class="ban" style="background-color: #fff;">
+      	<div class="left_ban">
+      		<h4>办事大厅</h4>
+      		<h6>贵州省政府网上办事厅</h6>
+      	</div>
+      	<div class="right_ban">
+      		<h4>部门频道</h4>
+      		<h6>贵州省部门频道入口</h6>
+      	</div>
+      </div>
+<!--办事大厅的结束-->
+         <ul class="mui-table-view" style="margin-top: 90px;">
+                 <li class="mui-table-view-cell">
+                     <a class="mui-navigate-right sheng">
+                                                          生活动态
+                      <p class="cha">
+                      	  查看更多
+                      </p>
+                     </a>                    
+                 </li>
+                 <li class="mui-table-view-cell">
+                     <a class="mui-navigate-right sheng">
+                         [燃气动态]
+                      <p class="cha">
+                      	2019-04-30
+                      </p>
+                     </a> 
+                     <p style="margin-top: 30px;">2019年5月2日至5月8日贵阳地区停气公告</p>
+                 </li>
+                   <li class="mui-table-view-cell">
+                     <a class="mui-navigate-right sheng">
+                         [燃气动态]
+                      <p class="cha">
+                      	2019-04-30
+                      </p>
+                     </a> 
+                     <p style="margin-top: 30px;">2019年5月2日至5月8日贵阳地区停气公告</p>
+                 </li>
+                 <li class="mui-table-view-cell">
+                     <a class="mui-navigate-right sheng">
+                         [交通动态]
+                      <p class="cha">
+                      	2019-04-30
+                      </p>
+                     </a> 
+                     <p style="margin-top: 30px;">2019年5月2日至5月8日贵阳地区停气公告</p>
+                 </li>
+                 <li class="mui-table-view-cell">
+                     <a class="mui-navigate-right sheng">
+                         [供水动态]
+                      <p class="cha">
+                      	2019-04-30
+                      </p>
+                     </a> 
+                     <p style="margin-top: 30px;">2019年5月2日至5月8日贵阳地区停气公告</p>
+                 </li>
+          </ul>
+          <div class="tu">
+          	  <img src="../images/yun..jpg" width="100%"/>
+          </div> 
+		<script src="../js/mui.min.js"></script>
+		<script type="text/javascript" src="../js/Jump.js" ></script>
+		<!--jump.js为跳转模块--> 
+		<script type="text/javascript" charset="utf-8">
+			mui.init({
+				swipeBack: true //启用右滑关闭功能
+				
+			});	
+			var gallery = mui('.mui-slider');
+              gallery.slider({
+              interval:500//自动轮播周期，若为0则不自动播放，默认为0；
+              });
+           mui.init({
+			
+			});
+			document.getElementById('kuai').addEventListener('tap',function(){
+      		mui.openWindow({
+			url: 'kuaiji.html', 
+			id:'kuaiji',
+			show:{
+				aniShow:'none',//
+
+			}
+		})
+      	});
+      	document.getElementById('quanbu').addEventListener('tap',function(){
+      		mui.openWindow({
+			url: 'quanbu.html', 
+			id:'quan',
+			show:{
+				aniShow:'none',//
+
+			}
+		})
+      	});
+			
+		</script>
+	</body>
+</html>

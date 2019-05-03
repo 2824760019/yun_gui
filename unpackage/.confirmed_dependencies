@@ -1,0 +1,29 @@
+{
+	"index.html": {
+		"resources": [
+			"src/home.html"
+		],
+		"refer": [
+			"src/home.html",
+			"src/xinwen.html",
+			"src/chengshi.html",
+			"src/denglu.html",
+			"src/yuying.html"
+		]
+	},
+	"src/chengshi.html": {
+		"refer": [
+			"hei/zunyi/zunyi.html"
+		]
+	},
+	"src/xinwen.html": {
+		"refer": [
+			"hei/zunyi/zhongxin.html"
+		]
+	},
+	"src/home.html": {
+		"refer": [
+			"src/kuaiji.html"
+		]
+	}
+}
