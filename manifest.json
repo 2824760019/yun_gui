@@ -157,7 +157,12 @@
 			"src/home.html": {
 				"resources": [],
 				"refer": [
-					"src/kuaiji.html"
+					"src/kuaiji.html",
+					"src/quanbu.html",
+					"src/jiaofei.html",
+					"src/lvyou.html",
+					"src/gengduo.html",
+					"src/gongjiejing.html"
 				],
 				"priority": 0
 			}

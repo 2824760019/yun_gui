@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>服务频道</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="stylesheet" href="../css/mui.css" />
+	</head>
+	<body style="background-color: #fafafa;">
+		<div id="ping_dao">
+			<header class="mui-bar mui-bar-nav" style="background-color: green;position: fixed;top: 0; left: 0;">
+			    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left" style="color: #fff;"></a>
+			    <h1 class="mui-title" style="color: #fff;font-family: '微软雅黑';">服务频道</h1>
+			</header>
+		    <div id="refreshContainer"  class="mui-content mui-scroll-wrapper" style="margin-top: 3px;">
+			  <div class="mui-scroll">
+			    <!--数据列表-->
+			    <ul class="mui-table-view mui-table-view-chevron">
+			       <div class="zui">
+			       	      <div style="padding-top: 10px;padding-left: 10px;">
+			       	  	 	 <span ><img src="../images/ic_app_tem.png"/></span>
+			       	  	 	 <span style="line-height: 50px; height: 50px;font-size: 20px;margin-left: 10px;font-family: '微软雅黑';">最近使用</span>
+			        	  </div>
+			       	   <ul class="mui-table-view mui-grid-view mui-grid-9" style="background-color: #fff; border-top: 1px solid #fff;">
+			       	      <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" style="border-top:1px solid #fff;border-right: 1px solid #fff;">
+			       	          <a href="#">
+			       	              <span class="mui-icon">
+			       	              	 <img src="../images/chunchu_10.png"/>
+			       	              </span>
+			       	              <div class="mui-media-body">驾驶证积分</div>
+			       	          </a>
+			       	      </li>
+			       	      <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" style="border-top:1px solid #fff;border-right: 1px solid #fff;">
+			       	          <a href="#">
+			       	              <span class="mui-icon">
+			       	              	 <img src="../images/chunchu_03.png"/>
+			       	              </span>
+			       	              <div class="mui-media-body">公交查询</div>
+			       	          </a>
+			       	      </li>
+			       	      <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" style="border-top:1px solid #fff;border-right: 1px solid #fff;">
+			       	          <a href="#">
+			       	              <span class="mui-icon ">
+			       	              	<img src="../images/chunchu_14.png"/>
+			       	              </span>
+			       	              <div class="mui-media-body">快递服务</div>
+			       	          </a>
+			       	      </li>
+			       	      <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" style=" border-top:1px solid #fff;border-right: 1px solid #fff;">
+			       	          <a href="#">
+			       	              <span class="mui-icon">
+			       	              	 <img src="../images/chunchu_06.png"/>
+			       	              </span>
+			       	              <div class="mui-media-body">生活缴费</div>
+			       	          </a>
+			       	      </li>       	   
+			       	   </ul>			       	      			       	   
+			       </div>
+			        <div class="zui" style="margin-top: 10px;background-color: #fff;">
+			       	      <div style="padding-top: 10px;padding-left: 10px;">
+			       	  	 	 <span ><img src="../images/ic_app_tem.png"/></span>
+			       	  	 	 <span style="line-height: 50px; height: 50px;font-size: 20px;margin-left: 10px;font-family: '微软雅黑';">我的应用</span>
+			       	  	 	 <span class="mui-pull-right"style="padding-right: 20px;color: green;">编辑</span>
+			        	  </div>
+			       	   <ul class="mui-table-view mui-grid-view mui-grid-9" style="background-color: #fff; border-top: 1px solid #fff;">
+			       	      <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" style="border-top:1px solid #fff;border-right: 1px solid #fff;border-bottom: 1px solid #fff;">
+			       	          <a href="#">
+			       	              <span class="mui-icon">
+			       	              	 <img src="../images/gengduo_08.png"/>
+			       	              </span>
+			       	              <div class="mui-media-body">社保查询</div>
+			       	          </a>
+			       	      </li>
+			       	      <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" style="border-top:1px solid #fff;border-right: 1px solid #fff;border-bottom: 1px solid #fff;">
+			       	          <a href="#">
+			       	              <span class="mui-icon">
+			       	              	 <img src="../images/chunchu_03.png"/>
+			       	              </span>
+			       	              <div class="mui-media-body">交通咨询</div>
+			       	          </a>
+			       	      </li>
+			       	     
+			       	   </ul>			       	      			       	   
+			       </div>
+			       <div class="zui" style="margin-top: 10px;background-color: #fff;">
+			       	      <div style="padding-top: 10px;padding-left: 10px;">
+			       	  	 	 <span ><img src="../images/ic_app_tem.png"/></span>
+			       	  	 	 <span style="line-height: 50px; height: 50px;font-size: 20px;margin-left: 10px;font-family: '微软雅黑';">社会保障</span>
+			        	  </div>
+			       	   <ul class="mui-table-view mui-grid-view mui-grid-9" style="background-color: #fff; border-top: 1px solid #fff;">
+			       	      <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" style="border-top:1px solid #fff;border-right: 1px solid #fff;border-bottom: 1px solid #fff;">
+			       	          <a href="#">
+			       	              <span class="mui-icon">
+			       	              	 <img src="../images/gengduo_08.png"/>
+			       	              </span>
+			       	              <div class="mui-media-body">社保查询</div>
+			       	          </a>
+			       	      </li>
+			       	      <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" style="border-top:1px solid #fff;border-right: 1px solid #fff;border-bottom: 1px solid #fff;">
+			       	          <a href="#">
+			       	              <span class="mui-icon">
+			       	              	 <img src="../images/chunchu_06.png"/>
+			       	              </span>
+			       	              <div class="mui-media-body">低保查询</div>
+			       	          </a>
+			       	      </li>			       	     
+			       	   </ul>			       	      			       	   
+			       </div>
+			   <!--   交通出行的开始-->
+			       <div class="zui">
+			       	      <div style="padding-top: 10px;padding-left: 10px;">
+			       	  	 	 <span ><img src="../images/ic_app_tem.png"/></span>
+			       	  	 	 <span style="line-height: 50px; height: 50px;font-size: 20px;margin-left: 10px;font-family: '微软雅黑';">交通出行</span>
+			        	  </div>
+			       	   <ul class="mui-table-view mui-grid-view mui-grid-9" style="background-color: #fff; border-top: 1px solid #fff;">
+			       	      <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" style="border-top:1px solid #fff;border-right: 1px solid #fff;">
+			       	          <a href="#">
+			       	              <span class="mui-icon">
+			       	              	 <img src="../images/chunchu_10.png"/>
+			       	              </span>
+			       	              <div class="mui-media-body">驾驶证积分</div>
+			       	          </a>
+			       	      </li>
+			       	      <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" style="border-top:1px solid #fff;border-right: 1px solid #fff;">
+			       	          <a href="#">
+			       	              <span class="mui-icon">
+			       	              	 <img src="../images/chunchu_03.png"/>
+			       	              </span>
+			       	              <div class="mui-media-body">公交查询</div>
+			       	          </a>
+			       	      </li>
+			       	      <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" style="border-top:1px solid #fff;border-right: 1px solid #fff;">
+			       	          <a href="#">
+			       	              <span class="mui-icon ">
+			       	              	<img src="../images/chunchu_14.png"/>
+			       	              </span>
+			       	              <div class="mui-media-body">快递服务</div>
+			       	          </a>
+			       	      </li>
+			       	      <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" style=" border-top:1px solid #fff;border-right: 1px solid #fff;">
+			       	          <a href="#">
+			       	              <span class="mui-icon">
+			       	              	 <img src="../images/chunchu_06.png"/>
+			       	              </span>
+			       	              <div class="mui-media-body">生活缴费</div>
+			       	          </a>
+			       	      </li> 
+			       	       <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" style="border-top:1px solid #fff;border-right: 1px solid #fff;">
+			       	          <a href="#">
+			       	              <span class="mui-icon">
+			       	              	 <img src="../images/chunchu_10.png"/>
+			       	              </span>
+			       	              <div class="mui-media-body">驾驶证积分</div>
+			       	          </a>
+			       	      </li>
+			       	      <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" style="border-top:1px solid #fff;border-right: 1px solid #fff;">
+			       	          <a href="#">
+			       	              <span class="mui-icon">
+			       	              	 <img src="../images/chunchu_03.png"/>
+			       	              </span>
+			       	              <div class="mui-media-body">公交查询</div>
+			       	          </a>
+			       	      </li>
+			       	      <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" style="border-top:1px solid #fff;border-right: 1px solid #fff;">
+			       	          <a href="#">
+			       	              <span class="mui-icon ">
+			       	              	<img src="../images/chunchu_14.png"/>
+			       	              </span>
+			       	              <div class="mui-media-body">快递服务</div>
+			       	          </a>
+			       	      </li>
+			       	      <li class="mui-table-view-cell mui-media mui-col-xs-3 mui-col-sm-3" style=" border-top:1px solid #fff;border-right: 1px solid #fff;">
+			       	          <a href="#">
+			       	              <span class="mui-icon">
+			       	              	 <img src="../images/chunchu_06.png"/>
+			       	              </span>
+			       	              <div class="mui-media-body">生活缴费</div>
+			       	          </a>
+			       	      </li>       	   
+			       	   </ul>			       	      			       	   
+			       </div>
+			   <!-- 交通出行的结束-->
+			    </ul>
+			  </div>
+			</div>			
+		</div>
+	</body>
+	<script type="text/javascript" src="../js/Jump.js" ></script>
+	<script type="text/javascript" src="../js/mui.js" ></script>
+	<script>
+	  mui.init({
+  				pullRefresh : {
+    			container:"#refreshContainer",//下拉刷新容器标识，querySelector能定位的css选择器均可，比如：id、.class等
+    			down : {
+      			style:'circle',//必选，下拉刷新样式，目前支持原生5+ ‘circle’ 样式
+      			color:'#abc', //可选，默认“#2BD009” 下拉刷新控件颜色
+      			height:50,//可选,默认50px.下拉刷新控件的高度,
+      			range:'100px', //可选 默认100px,控件可下拉拖拽的范围
+      			offset:'0px', //可选 默认0px,下拉刷新控件的起始位置
+//    			auto: true,//可选,默认false.首次加载自动上拉刷新一次
+      			contentover : "释放立即刷新",	//可选，在释放可刷新状态时，下拉刷新控件上显示的标题内容
+      			contentrefresh : "正在刷新...",//可选，正在刷新状态时，下拉刷新控件上显示的标题内容
+      			callback :pulldownRefresh //必选，刷新函数，根据具体业务来编写，比如通过ajax从服务器获取新数据；
+    			},
+    			up:{
+    			height:50,//可选.默认50.触发上拉加载拖动距离
+//  			style:'circle',
+//    			auto:true,//可选,默认false.自动上拉加载一次
+      			contentrefresh : "正在加载...",//可选，正在加载状态时，上拉加载控件上显示的标题内容
+      			contentnomore:'没有更多数据了',//可选，请求完毕若没有更多数据时显示的提醒内容；
+                callback: pullupRefresh
+    			}
+  			}
+			});
+			
+			//下拉方法
+			function pulldownRefresh() {
+        	setTimeout(function () {
+        	//querySelector()返回匹配指定选择器的第一个元素;
+        	//querySelectorAll()返回所有的元素
+        	//createElement创建一个文本节点
+            var table = document.body.querySelector('.mui-table-view');
+            var cells = document.body.querySelectorAll('.mui-table-view-cell');
+            for (var i = cells.length, len = i + 3; i < len; i++) {
+                var li = document.createElement('li');
+                li.className = 'mui-table-view-cell';
+               // li.innerHTML = '<a class="mui-navigate-right">人员名称: ' + (i + 1) + '</a>';
+                //下拉刷新，新纪录插到最前面；
+//              table.insertBefore(li, table.firstChild);
+               // table.insertBefore(li, table.lastChild);/*后添加*/
+            }
+            mui('#refreshContainer').pullRefresh().endPulldownToRefresh(); //refresh completed
+        	}, 1500);
+    		}
+			var count = 0;
+			//上拉方法
+			 function pullupRefresh() {  
+        setTimeout(function () {
+            mui('#refreshContainer').pullRefresh().endPullupToRefresh((++count > 2)); //参数为true代表没有更多数据了。
+            var table = document.body.querySelector('.mui-table-view');
+            var cells = document.body.querySelectorAll('.mui-table-view-cell');
+            for (var i = cells.length, len = i + 5; i < len; i++) {
+                var li = document.createElement('li');
+                li.className = 'mui-table-view-cell';
+               // li.innerHTML = '<a class="mui-navigate-right">人员名称: 张三 ' + (i + 1) + '</a>';
+               // table.appendChild(li);
+            }
+             mui('#refreshContainer').pullRefresh().endPullupToRefresh();
+        }, 1000);
+    }
+         
+	</script>
+</html>
